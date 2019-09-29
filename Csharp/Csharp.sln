@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp", "Csharp\Csharp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{AEF97581-1343-4AAD-AC67-260C26010A2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample", "sample\sample.csproj", "{7A623E73-5AC0-4F62-B183-BBD13E58A3A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AEF97581-1343-4AAD-AC67-260C26010A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEF97581-1343-4AAD-AC67-260C26010A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEF97581-1343-4AAD-AC67-260C26010A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A623E73-5AC0-4F62-B183-BBD13E58A3A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A623E73-5AC0-4F62-B183-BBD13E58A3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A623E73-5AC0-4F62-B183-BBD13E58A3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A623E73-5AC0-4F62-B183-BBD13E58A3A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
