@@ -11,15 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsHelloWorld", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfHelloWorld", "WpfHelloWorld\WpfHelloWorld.csproj", "{28F3B2F6-24C0-4FCD-96D9-63FA58CBA9A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consolehelloworld1", "Consolehelloworld1\Consolehelloworld1.csproj", "{20162019-9BCB-480E-B3F2-4DAF56DBB141}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsHelloWorld1", "WindowsFormsHelloWorld1\WindowsFormsHelloWorld1.csproj", "{09F7672E-45D7-496A-8865-EB9B10A401F7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppHelloWorld1", "WpfAppHelloWorld1\WpfAppHelloWorld1.csproj", "{8196EE07-0D2E-4AA9-8498-B2A72415D831}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormHelloWorld", "WebFormHelloWorld\WebFormHelloWorld.csproj", "{D9F08BF3-D8FA-4B98-BAFB-590C8E3AC431}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVC", "WebMVC\WebMVC.csproj", "{799A1CDE-E1F0-4537-B33B-94D06B695923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld1001", "HelloWorld1001\HelloWorld1001.csproj", "{2ED59FEA-BBD3-411E-A330-84EC89C4DFDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperCalculator", "SuperCalculator\SuperCalculator.csproj", "{A2F1C85C-D8D9-4F4C-87C2-40EC5965A83B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,18 +41,6 @@ Global
 		{28F3B2F6-24C0-4FCD-96D9-63FA58CBA9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28F3B2F6-24C0-4FCD-96D9-63FA58CBA9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28F3B2F6-24C0-4FCD-96D9-63FA58CBA9A5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20162019-9BCB-480E-B3F2-4DAF56DBB141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20162019-9BCB-480E-B3F2-4DAF56DBB141}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20162019-9BCB-480E-B3F2-4DAF56DBB141}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20162019-9BCB-480E-B3F2-4DAF56DBB141}.Release|Any CPU.Build.0 = Release|Any CPU
-		{09F7672E-45D7-496A-8865-EB9B10A401F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09F7672E-45D7-496A-8865-EB9B10A401F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09F7672E-45D7-496A-8865-EB9B10A401F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09F7672E-45D7-496A-8865-EB9B10A401F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8196EE07-0D2E-4AA9-8498-B2A72415D831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8196EE07-0D2E-4AA9-8498-B2A72415D831}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8196EE07-0D2E-4AA9-8498-B2A72415D831}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8196EE07-0D2E-4AA9-8498-B2A72415D831}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D9F08BF3-D8FA-4B98-BAFB-590C8E3AC431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D9F08BF3-D8FA-4B98-BAFB-590C8E3AC431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9F08BF3-D8FA-4B98-BAFB-590C8E3AC431}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +49,14 @@ Global
 		{799A1CDE-E1F0-4537-B33B-94D06B695923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799A1CDE-E1F0-4537-B33B-94D06B695923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799A1CDE-E1F0-4537-B33B-94D06B695923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED59FEA-BBD3-411E-A330-84EC89C4DFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED59FEA-BBD3-411E-A330-84EC89C4DFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED59FEA-BBD3-411E-A330-84EC89C4DFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED59FEA-BBD3-411E-A330-84EC89C4DFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F1C85C-D8D9-4F4C-87C2-40EC5965A83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F1C85C-D8D9-4F4C-87C2-40EC5965A83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F1C85C-D8D9-4F4C-87C2-40EC5965A83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F1C85C-D8D9-4F4C-87C2-40EC5965A83B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
