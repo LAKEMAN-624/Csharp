@@ -6,15 +6,16 @@ namespace Class6Type
     {
         static void Main(string[] args)
         {
-            int x;
-            x = 100;
-            long y;
-            y = 100L;
-            x = 100L;
+            //int x;
+            //x = 100;
+            //long y;
+            //y = 100L;
+            //x = 100L;
 
-            bool b;
-            b = false;
-            b = 100;
+            //bool b;
+            //b = false;
+            //b = 100;
+           
         }
     }
 }

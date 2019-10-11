@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class6Type", "Class6Type\Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class6Reflection", "Class6Reflection\Class6Reflection.csproj", "{26B78464-D131-49A7-8094-F6B69D5BBD44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class6StackOverflow", "Class6StackOverflow\Class6StackOverflow.csproj", "{F651A86F-1B0A-4FA6-A7A4-CE2F247CE787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapSample", "HeapSample\HeapSample.csproj", "{96693D17-3505-4C69-9926-273DA1BE8092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{26B78464-D131-49A7-8094-F6B69D5BBD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26B78464-D131-49A7-8094-F6B69D5BBD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26B78464-D131-49A7-8094-F6B69D5BBD44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F651A86F-1B0A-4FA6-A7A4-CE2F247CE787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F651A86F-1B0A-4FA6-A7A4-CE2F247CE787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F651A86F-1B0A-4FA6-A7A4-CE2F247CE787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F651A86F-1B0A-4FA6-A7A4-CE2F247CE787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96693D17-3505-4C69-9926-273DA1BE8092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96693D17-3505-4C69-9926-273DA1BE8092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96693D17-3505-4C69-9926-273DA1BE8092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96693D17-3505-4C69-9926-273DA1BE8092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
