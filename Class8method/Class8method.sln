@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class8Constructor", "Class8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overload", "Overload\Overload.csproj", "{E56F5E86-2534-4061-82C6-9A5A163C0748}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class8Operator", "Class8Operator\Class8Operator.csproj", "{16C1CC9B-06B1-4D06-86B5-838F5C0B6A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "explicit", "explicit\explicit.csproj", "{CE612383-9078-494E-8FBA-CC5E13667207}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{E56F5E86-2534-4061-82C6-9A5A163C0748}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E56F5E86-2534-4061-82C6-9A5A163C0748}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E56F5E86-2534-4061-82C6-9A5A163C0748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C1CC9B-06B1-4D06-86B5-838F5C0B6A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C1CC9B-06B1-4D06-86B5-838F5C0B6A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C1CC9B-06B1-4D06-86B5-838F5C0B6A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C1CC9B-06B1-4D06-86B5-838F5C0B6A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE612383-9078-494E-8FBA-CC5E13667207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE612383-9078-494E-8FBA-CC5E13667207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE612383-9078-494E-8FBA-CC5E13667207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE612383-9078-494E-8FBA-CC5E13667207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
