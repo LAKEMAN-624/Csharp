@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "field", "field\field.csproj", "{CD0D5561-272D-4A90-B33E-EE965C0EC919}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "staticField", "staticField\staticField.csproj", "{CD60F969-41BA-47C2-984C-D7A512370450}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CD0D5561-272D-4A90-B33E-EE965C0EC919}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD0D5561-272D-4A90-B33E-EE965C0EC919}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD0D5561-272D-4A90-B33E-EE965C0EC919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD60F969-41BA-47C2-984C-D7A512370450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD60F969-41BA-47C2-984C-D7A512370450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD60F969-41BA-47C2-984C-D7A512370450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD60F969-41BA-47C2-984C-D7A512370450}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
