@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "field", "field\field.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "staticField", "staticField\staticField.csproj", "{CD60F969-41BA-47C2-984C-D7A512370450}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "property", "property\property.csproj", "{B1FBC04E-C02F-406B-BFBD-4EBB9C3E4801}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CD60F969-41BA-47C2-984C-D7A512370450}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD60F969-41BA-47C2-984C-D7A512370450}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD60F969-41BA-47C2-984C-D7A512370450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FBC04E-C02F-406B-BFBD-4EBB9C3E4801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FBC04E-C02F-406B-BFBD-4EBB9C3E4801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FBC04E-C02F-406B-BFBD-4EBB9C3E4801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FBC04E-C02F-406B-BFBD-4EBB9C3E4801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
