@@ -12,15 +12,19 @@ namespace property
         {
             try
             {
-                Student stu1 = new Student();
-                stu1.SetAge(20);
-                Student stu2 = new Student();
-                stu2.SetAge(20);
-                Student stu3 = new Student();
-                stu3.SetAge(200);
+                Student stu = new Student();
+                stu.Age = 200;
+                Console.WriteLine(stu.Age);
+               
+                //Student stu1 = new Student();
+                //stu1.SetAge(20);
+                //Student stu2 = new Student();
+                //stu2.SetAge(20);
+                //Student stu3 = new Student();
+                //stu3.SetAge(200);
 
-                int Average = (stu1.GetAge() + stu2.GetAge() + stu3.GetAge()) / 3;
-                Console.WriteLine(Average);
+                //int Average = (stu1.GetAge() + stu2.GetAge() + stu3.GetAge()) / 3;
+                //Console.WriteLine(Average);
             }
             catch (Exception ex)
             {
@@ -32,20 +36,39 @@ namespace property
     class Student
     {
         private int age;
-        public int GetAge()
-        {
-            return this.age;
-        }
-        public void SetAge(int value)
-        {
-            if(value>= 0 && value<=120)
+        public int Age {
+            get
             {
-                this.age = value;
+                return this.age;
             }
-            else
+            set
             {
-                throw new Exception("Age value has error");
+                if(value>=0&&value<=120)
+                {
+                    this.age = value;
+                }
+                else
+                {
+                    throw new Exception("Age value has error");
+                }
             }
         }
+
+        //private int age;
+        //public int GetAge()
+        //{
+        //    return this.age;
+        //}
+        //public void SetAge(int value)
+        //{
+        //    if(value>= 0 && value<=120)
+        //    {
+        //        this.age = value;
+        //    }
+        //    else
+        //    {
+        //        throw new Exception("Age value has error");
+        //    }
+        //}
     }
 }
