@@ -15,7 +15,8 @@ namespace parameter
         }
         static void UpdateObject(Student stu)
         {
-            stu.Name ="Tom";
+            stu = new Student() { Name = "Tom" };
+            //stu.Name ="Tom";//副作用
             Console.WriteLine("HashCode={0}, Name={1}", stu.GetHashCode(), stu.Name);
         }
     }
