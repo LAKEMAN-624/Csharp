@@ -8,6 +8,7 @@ namespace MyLib.MyNameSpace2
 {
     class Student
     {
+       
         public Calculator Calculator { get; set; }
     }
 }

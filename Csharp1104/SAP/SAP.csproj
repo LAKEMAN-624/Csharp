@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0ACA194-A4E3-4B4A-81AD-73063575544F}</ProjectGuid>
+    <ProjectGuid>{24871498-594E-4218-B5BE-259432A25FBE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Class</RootNamespace>
-    <AssemblyName>Class</AssemblyName>
+    <RootNamespace>SAP</RootNamespace>
+    <AssemblyName>SAP</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,16 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\myfun\myfun.csproj">
-      <Project>{4e44f807-5086-4ea8-a2b8-c4dd824c6c20}</Project>
-      <Name>myfun</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MyLib\MyLib.csproj">
-      <Project>{fb9857b1-f0a2-42a1-be1a-f820db197b62}</Project>
-      <Name>MyLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
